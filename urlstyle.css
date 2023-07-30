@@ -1,0 +1,95 @@
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: -80px;
+    background: #EDE4FF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1
+{
+    margin-top: 40px;
+    color:#FFE79B;
+    text-align: center;
+}
+form label
+{
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color:#FFE7CE;
+    font-size: large;
+    text-align: center;
+}
+form input [type="text"]
+{
+    width: 90%;
+    padding: 50px;
+    margin: auto;
+    border-radius: 20px;
+    border: 4px solid #643A6B;
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+}
+form button
+{
+    background-color: white;
+    color:#8B1874 ;
+    border:#FFE7CE;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-top: 25px;
+   
+}
+form button:hover
+{
+    border: 4px solid#643A6B;
+}
+#short-url-container{
+    margin-top: 25px;
+    align-items: center;
+}
+#short-url-container h3{
+    text-align: center;
+    color:#FFE7CE;
+    align-items: center;
+}
+#short-url{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+#short-url a{
+    word-wrap: break-word;
+    margin-right: 15px;
+    color:#FAE392;
+    font-weight: 4em;
+}
+.container
+{
+    width: 80%;
+    height: auto;
+    min-height: 400px;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+    background: #4e54c8;
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  
+    background: linear-gradient(to right, #8f94fb, #4e54c8);
+    margin: auto;
+}
+#copy-btn
+{
+    background-color: white;
+    color:#8B1874 ;
+    border:#FFE7CE;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-top: 25px;
+}
